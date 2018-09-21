@@ -11,7 +11,7 @@ import UIKit
 class WeatherAPI: NSObject {
     
     let host: String = "http://dataservice.accuweather.com/"
-    let apiKey: String = "OrRtXjGMBfn81UXGqFPNdJj4pWQZzbAy"
+    let apiKey: String = "YICm8alUGl7FD9FRw56UXtVggWTGOjIe"
     
     func getLocationKey(location: String, completion: @escaping (String?) -> ()) {
         let locationFilter = location.replacingOccurrences(of: " ", with: "")
